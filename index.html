@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC
+"-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>lotteburger.com</title>
+
+</head>
+<body>
+<br>
+<center>
+  <div style="position: relative; width: 200px">
+   
+    <img src="https://art.ngfiles.com/images/2691000/2691721_mippness_lotte-eats-a-burger.gif?f1661015986
+              
+              ^^^REMEMBER TO FIX THE GIF^^^
+
+  </div>
+</center>
+<br>
+<center>
+  <big>Lotte has eaten <span id="burger">0 burgers</span>!</big>
+</center>
+</body>
+</html>
+
+<script>
+$(window).load(function (){
+  const burgers = 0;
+  setInterval(function () {
+    burgers = burgers + 1;
+    ("#burger").text(burgers + " burger" + (burger !== 1 ? "s" : ""));
+                                                                   
+  }, 4205);
+});
+</script>
